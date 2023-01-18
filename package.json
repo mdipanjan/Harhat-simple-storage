@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "deploy":"npx hardhat run scripts/deploy.js --network goerli",
-    "deploy-local":"npx hardhat run scripts/deploy.js"
-    
+    "deploy": "npx hardhat run scripts/deploy.js --network goerli",
+    "deploy-local": "npx hardhat run scripts/deploy.js",
+    "test": "npx hardhat test"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.1",
@@ -14,6 +14,8 @@
     "hardhat": "^2.12.6"
   },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.2"
   }
 }
