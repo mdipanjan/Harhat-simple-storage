@@ -2,8 +2,13 @@
   "name": "hardhat-simple-storage",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "deploy":"npx hardhat run scripts/deploy.js --network goerli"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "ethers": "^5.7.2",
     "hardhat": "^2.12.6"
   },
   "dependencies": {
