@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "deploy":"npx hardhat run scripts/deploy.js --network goerli"
+    "deploy":"npx hardhat run scripts/deploy.js --network goerli",
+    "deploy-local":"npx hardhat run scripts/deploy.js"
+    
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.1",
